@@ -2,8 +2,10 @@
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
+import javax.servlet.annotation.WebServlet;
 
 // Extend HttpServlet class
+@WebServlet("/hello123")
 public class HelloWorld extends HttpServlet {
  
    private String message;
